@@ -4,9 +4,69 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pricing Component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <header class="header">
+    <div class="wrapper">
+      <h1>Our Pricing</h1>
+
+      <div class="header__plans">
+        <p>Anually</p>
+        <div class="check">
+          <label class="check-circle" for="check"></label>
+          <input type="checkbox" id="check">
+        </div>
+        <p>Monthy</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrapper">
+      <section class="cards">
+        <article class="card">
+          <h2 class="card__plan">Basic</h2>
+          <p class="card__price">199.99</p>
+
+          <ul class="card__list">
+            <li>500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+
+          <a href="#" class="card__btn">Learn More</a>
+        </article>
+
+        <article class="card card-center">
+          <h2 class="card__plan">Professional</h2>
+          <p class="card__price">249.99</p>
+
+          <ul class="card__list">
+            <li>1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+
+          <a href="#" class="card__btn">Learn More</a>
+        </article>
+
+        <article class="card">
+          <h2 class="card__plan">Master</h2>
+          <p class="card__price">399.99</p>
+
+          <ul class="card__list">
+            <li>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+
+          <a href="#" class="card__btn">Learn More</a>
+        </article>
+      </section>
+    </div>
+  </main>
 
   <script src="js/app.js"></script>
 </body>
